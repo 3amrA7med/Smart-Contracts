@@ -43,6 +43,9 @@ describe('Inbox', () => {
         const message = await inbox.methods.message().call();
         assert.equal(message, 'Changed');
     })
+
+    // pending test below
+    it('should return -1 when the value is not present');
 })
 
 
